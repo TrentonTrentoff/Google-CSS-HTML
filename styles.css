@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(32, 33, 36);
+}
+
+.topRight {
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.topRight a:link {
+    padding-right: 5px;
+    color:white;
+    text-decoration: none;
+}
+
+.topRight a:hover {
+    text-decoration: underline;
+}
+
+.topRight a:visited {
+    color:white;
+}
+
+.title {
+    color: white;
+    text-align:center;
+    font-size: 450%;
+    text-decoration: bold;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 150px;
+    margin-bottom: -25px;
+    height: 150px;
+    vertical-align: bottom;
+}
+
+.search {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 300px;
+    padding: 0px 20px 20px 20px;
+    margin-top: 10px;
+}
+
+.search input[type=text] {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 100px;
+    border-width: 1px;
+    background-color : rgb(32, 33, 36); 
+    color:white;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 500px;
+    max-width: 65%;
+}
+
+.search input[type=text]:hover {
+    background-color : rgb(48, 49, 52); 
+    border-color: black;
+}
+
+.search input[type=text]:focus {
+    outline: none;
+}
+
+.search input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(48, 49, 52);
+    color:white;
+    font-size: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2px;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 10px 15px 10px 15px;
+    margin: 35px 10px 0px 0px;
+}
+
+.search input[type=submit]:hover {
+    border-color: white;
+    cursor: pointer;
+}
+
+.advancedTitle {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(225 225 225);
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.advancedSearchTitle {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(229, 144, 134);
+    padding-top: 50px;
+    padding-left: 55px;
+    font-size: 30px;
+}
+
+.findWith {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(232, 234, 237);
+    padding-left: 55px;
+    padding-top: 50px;
+    border-top: solid;
+    border-color: gray;
+    margin-top: 25px;
+    border-width: 0.5px;
+}
+
+.find {
+    color: rgb(185, 188, 192);
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    padding-left: 55px;
+}
+
+.findText {
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: 50px;
+    row-gap: 10px;
+}
+
+.findTextGrid input[type=text] {
+    width: 500px;
+    border-style: solid;
+    border-color: rgb(64, 66, 69);
+    background-color: rgb(32, 33, 36);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.findTextButton input[type=submit] {
+    background-color: rgb(146, 180, 242);
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 9px 10px 9px 10px;
+    margin-left: 622px;
+}
