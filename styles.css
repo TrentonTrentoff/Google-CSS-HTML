@@ -92,6 +92,15 @@ body {
     padding-left: 25px;
 }
 
+.advancedTitle a:link {
+    text-decoration: none;
+    color:rgb(225 225 225);
+}
+
+.advancedTitle a:hover {
+    text-decoration: underline;
+}
+
 .advancedSearchTitle {
     font-family: 'Roboto', sans-serif;
     color: rgb(229, 144, 134);
